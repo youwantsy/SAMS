@@ -1,0 +1,28 @@
+﻿  CommunicationManager.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(18,1): error C2011: 'Sinario': 'struct' 형식 재정의
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.h(2): message : 'Sinario' 선언을 참조하십시오.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(40,28): error C2011: 'CommunicationManager': 'class' 형식 재정의
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.h(6): message : 'CommunicationManager' 선언을 참조하십시오.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(94,29): error C2079: 'response'은(는) 정의되지 않은 struct 'Sinario'을(를) 사용합니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(100,1): error C2664: 'void client::on_receive(const Sinario &)': 인수 1을(를) 'int'에서 'const Sinario &'(으)로 변환할 수 없습니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(100,1): message : 원인: 'int'에서 'const Sinario'(으)로 변환할 수 없습니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(100,1): message : 정의되지 않은 형식 'Sinario'을(를) 사용했습니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.h(2,8): message : 'Sinario' 선언을 참조하십시오.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(122,10): message : 'client::on_receive' 선언을 참조하십시오.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(125,1): error C2664: 'void (const Sinario)': 인수 1을(를) 'const Sinario'에서 'const Sinario'(으)로 변환할 수 없습니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(125,1): message : 정의되지 않은 형식 'Sinario'을(를) 사용했습니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.h(2,8): message : 'Sinario' 선언을 참조하십시오.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(140,6): error C2027: 정의되지 않은 형식 'Sinario'을(를) 사용했습니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.h(2): message : 'Sinario' 선언을 참조하십시오.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(180,17): error C2079: 'sinario'은(는) 정의되지 않은 struct 'Sinario'을(를) 사용합니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(192,23): error C2664: 'void client::send(const Sinario &)': 인수 1을(를) 'int'에서 'const Sinario &'(으)로 변환할 수 없습니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(192,23): message : 원인: 'int'에서 'const Sinario'(으)로 변환할 수 없습니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(192,23): message : 정의되지 않은 형식 'Sinario'을(를) 사용했습니다.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.h(2,8): message : 'Sinario' 선언을 참조하십시오.
+C:\Users\User\source\repos\SAMS\MLS\CommunicationManager.cpp(128,10): message : 'client::send' 선언을 참조하십시오.
+  StatusManager.cpp
+  코드를 생성하고 있습니다...
